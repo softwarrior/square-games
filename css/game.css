@@ -1,0 +1,36 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -4px;
+    width: 400px;
+}
+
+.cell {
+    background-color: gray;
+    margin: 4px;
+    width: 120px;
+    height: 120px;
+}
+
+.blue::after {
+    display: block;
+    content: "";
+    background-color: blue;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.red::after {
+    display: block;
+    content: "";
+    background-color: red;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
